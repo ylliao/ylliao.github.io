@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ylliao.github.io/2018/11/27/Apache-Kafka%E5%AE%9E%E6%88%98%E5%89%96%E6%9E%90/</loc>
+    
+    <lastmod>2018-11-27T15:36:10.231Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ylliao.github.io/about/index.html</loc>
     
     <lastmod>2018-11-27T14:00:59.529Z</lastmod>
