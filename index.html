@@ -304,11 +304,11 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="Apache-Kafka实战剖析"><a href="#Apache-Kafka实战剖析" class="headerlink" title="Apache Kafka实战剖析"></a>Apache Kafka实战剖析</h2><ol>
+        <h2 id="Apache-Kafka初探（一）"><a href="#Apache-Kafka初探（一）" class="headerlink" title="Apache Kafka初探（一）"></a>Apache Kafka初探（一）</h2><ol>
 <li>Kafka安装</li>
 </ol>
-<p>&emsp;Kafka的官网(<a href="http://kafka.apache.org)，目前Kafka的最新版本是1.0，于2017-11-01发布的，实际上对于我们的学习来说，哪个链接的下载都是可以的。他们是根据不同的Scala版本来划分的，因为Kafka内核是由Scala语言来编写的。当然，Kafka提供了了针对不同语言的客户端。这里我们根据网站的建议，下载Scala" target="_blank" rel="noopener">http://kafka.apache.org)，目前Kafka的最新版本是1.0，于2017-11-01发布的，实际上对于我们的学习来说，哪个链接的下载都是可以的。他们是根据不同的Scala版本来划分的，因为Kafka内核是由Scala语言来编写的。当然，Kafka提供了了针对不同语言的客户端。这里我们根据网站的建议，下载Scala</a> 2.11 - kafka_2.11-1.0.0.tgz这一版本。下载完成后解压到相应的目录，由于Kafka是依赖于ZooKeeper的，通过ZooKeeper来管理理各种数据与元数据，因此还需要下载ZooKeeper。</p>
-<p>&emsp;ZooKeeper的官网(<a href="http://zookeeper.apache.org)，下载完成后解压到相应的目录，需将config目录下的zoo_sample.cfg文件备份，然后重命名为zoo.cfg，打开zoo.cfg文件，找到文件的第12行，这是ZooKeeper存放数据的目录位置（dataDir），我们可以将其修改为自己系统上的一个已知未知，其他内容则无需修改。值得注意的是，第14行表示ZooKeeper启动时的端口号，默认值为2181，使用默认值即可。" target="_blank" rel="noopener">http://zookeeper.apache.org)，下载完成后解压到相应的目录，需将config目录下的zoo_sample.cfg文件备份，然后重命名为zoo.cfg，打开zoo.cfg文件，找到文件的第12行，这是ZooKeeper存放数据的目录位置（dataDir），我们可以将其修改为自己系统上的一个已知未知，其他内容则无需修改。值得注意的是，第14行表示ZooKeeper启动时的端口号，默认值为2181，使用默认值即可。</a></p>
+<p>&emsp;Kafka的官网（<a href="http://kafka.apache.org），目前Kafka的最新版本是1.0，于2017-11-01发布的，实际上对于我们的学习来说，哪个链接的下载都是可以的。他们是根据不同的Scala版本来划分的，因为Kafka内核是由Scala语言来编写的。当然，Kafka提供了了针对不同语言的客户端。这里我们根据网站的建议，下载Scala" target="_blank" rel="noopener">http://kafka.apache.org），目前Kafka的最新版本是1.0，于2017-11-01发布的，实际上对于我们的学习来说，哪个链接的下载都是可以的。他们是根据不同的Scala版本来划分的，因为Kafka内核是由Scala语言来编写的。当然，Kafka提供了了针对不同语言的客户端。这里我们根据网站的建议，下载Scala</a> 2.11 - kafka_2.11-1.0.0.tgz这一版本。下载完成后解压到相应的目录，由于Kafka是依赖于ZooKeeper的，通过ZooKeeper来管理理各种数据与元数据，因此还需要下载ZooKeeper。</p>
+<p>&emsp;ZooKeeper的官网（<a href="http://zookeeper.apache.org），下载完成后解压到相应的目录，需将config目录下的zoo_sample.cfg文件备份，然后重命名为zoo.cfg，打开zoo.cfg文件，找到文件的第12行，这是ZooKeeper存放数据的目录位置（dataDir），我们可以将其修改为自己系统上的一个已知未知，其他内容则无需修改。值得注意的是，第14行表示ZooKeeper启动时的端口号，默认值为2181，使用默认值即可。" target="_blank" rel="noopener">http://zookeeper.apache.org），下载完成后解压到相应的目录，需将config目录下的zoo_sample.cfg文件备份，然后重命名为zoo.cfg，打开zoo.cfg文件，找到文件的第12行，这是ZooKeeper存放数据的目录位置（dataDir），我们可以将其修改为自己系统上的一个已知未知，其他内容则无需修改。值得注意的是，第14行表示ZooKeeper启动时的端口号，默认值为2181，使用默认值即可。</a></p>
 <ol start="2">
 <li>启动ZooKeeper</li>
 </ol>
