@@ -2,28 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ylliao.github.io/2018/11/27/Apache-Kafka%E5%AE%9E%E6%88%98%E5%89%96%E6%9E%90/</loc>
+    <loc>http://www.ylliao.club/2018/11/27/Apache-Kafka%E5%AE%9E%E6%88%98%E5%89%96%E6%9E%90/</loc>
     
-    <lastmod>2018-11-27T15:47:05.419Z</lastmod>
+    <lastmod>2018-11-28T14:44:41.836Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ylliao.github.io/about/index.html</loc>
+    <loc>http://www.ylliao.club/links/index.html</loc>
+    
+    <lastmod>2018-11-28T13:40:51.899Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.ylliao.club/categories/index.html</loc>
+    
+    <lastmod>2018-11-28T13:40:27.965Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.ylliao.club/about/index.html</loc>
     
     <lastmod>2018-11-27T14:00:59.529Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ylliao.github.io/tags/index.html</loc>
+    <loc>http://www.ylliao.club/tags/index.html</loc>
     
     <lastmod>2018-11-27T13:57:56.723Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ylliao.github.io/2018/11/26/hello-world/</loc>
+    <loc>http://www.ylliao.club/2018/11/26/hello-world/</loc>
     
     <lastmod>2018-11-26T04:52:36.414Z</lastmod>
     
