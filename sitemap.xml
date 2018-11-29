@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.ylliao.club/2018/11/26/%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BA%94%E7%94%A8/</loc>
+    
+    <lastmod>2018-11-29T14:24:31.468Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.ylliao.club/2018/11/29/JVM%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90/</loc>
     
     <lastmod>2018-11-29T12:09:00.724Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://www.ylliao.club/about/index.html</loc>
     
     <lastmod>2018-11-28T12:04:31.941Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.ylliao.club/2018/11/26/hello-world/</loc>
-    
-    <lastmod>2018-11-26T04:52:36.414Z</lastmod>
     
   </url>
   
